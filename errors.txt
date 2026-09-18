@@ -1,0 +1,24 @@
+  File "/home/MIT534/errors.py", line 1
+    print("Hello"
+         ^
+SyntaxError: '(' was never closed
+Traceback (most recent call last):
+  File "/home/MIT534/errors2.py", line 1, in <module>
+    print(age)
+          ^^^
+NameError: name 'age' is not defined
+Traceback (most recent call last):
+  File "/home/MIT534/errors3.py", line 1, in <module>
+    "Age: " + 18
+    ~~~~~~~~^~~~
+TypeError: can only concatenate str (not "int") to str
+Traceback (most recent call last):
+  File "/home/MIT534/errors4.py", line 1, in <module>
+    int("cat")
+    ~~~^^^^^^^
+ValueError: invalid literal for int() with base 10: 'cat'
+Traceback (most recent call last):
+  File "/home/MIT534/errors5.py", line 1, in <module>
+    import sys; print(sys.argv[1])
+                      ~~~~~~~~^^^
+IndexError: list index out of range
