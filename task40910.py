@@ -1,0 +1,5 @@
+dna = input()
+g = dna.count('G')
+c = dna.count('C')
+percent = 100 * (g + c) / len(dna)
+print(percent)
